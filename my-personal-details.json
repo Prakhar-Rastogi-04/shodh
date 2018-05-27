@@ -25,11 +25,12 @@
 				"text": "I love",
 				"val": "",
 				"class": "glyphicon-heart",
-				"list": {
-					"0": "singing",
-					"1": "playing chess",
-					"2": "indian politics"
-				}
+				"list": [
+					"singing",
+					"playing chess",
+					"indian politics"
+
+				]
 			}
 		]
 	}

@@ -14,15 +14,15 @@ export class PersonalInfoComponent implements OnInit {
     console.log('ok');
   }
   callAllInfo = function () {
-    alert ('func called!');
+    // alert ('func called!');
     this.http.get('https://raw.githubusercontent.com/Prakhar-Rastogi-04/shodh/master/my-personal-details.json')
     .subscribe(
       (data:any[]) => {
-        debugger;
+        // debugger;
         console.log(data);
         this.personalData = data;
         // data.profIntro.user
-        console.log(this.personalData.user)
+        console.log(this.personalData.profIntro.user)
        
       }
     )

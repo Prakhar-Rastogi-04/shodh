@@ -1,9 +1,15 @@
 <div class="personal-info-outer">
   <div class="personal-info-inner">
     <h3 class="introHead">About Me</h3>
-    <div *ngFor="let info of [0,1,2,3,4]; let i = index">
-      <span class="glyphicon glyphicon-home"></span>
-      <span class="persInfo"> Lives in Pune</span>
+    <div *ngFor="let info of personalData.profIntro.user; let i = index">
+      <span class="glyphicon" [ngClass]=info.class></span> &nbsp;
+      <span class="persInfo"> {{info.text}}
+        <a href="javascript:void(0)" *ngIf="!info.list">&nbsp;{{info.val}}</a>
+        <a href="javascript:void(0)" *ngIf="info.list">&nbsp; {{info.list[0]}}
+          <!-- <span *ngFor="let list of info.list; let in = index"><span *ngIf="!(in==0 ||info.list.length==1)">,</span>{{list}}</span> -->
+          <span *ngFor="let li of info.list[in]; let in = index">{{li}}</span>
+        </a>
+      </span>
       
     </div>
   </div>
