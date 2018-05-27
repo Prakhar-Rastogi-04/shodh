@@ -18,9 +18,12 @@ export class PersonalInfoComponent implements OnInit {
     this.http.get('https://raw.githubusercontent.com/Prakhar-Rastogi-04/shodh/master/my-personal-details.json')
     .subscribe(
       (data:any[]) => {
+        debugger;
         console.log(data);
         this.personalData = data;
-        console.log(this.personalData.formProperties);
+        // data.profIntro.user
+        console.log(this.personalData.user)
+       
       }
     )
   }

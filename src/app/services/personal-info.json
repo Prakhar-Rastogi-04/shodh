@@ -1,28 +1,27 @@
 {
 	"profIntro": {
-		"permanentAdd": {
-			"permanentAdd": {
+		"user": [{
 				"text": "Belongs to",
 				"val": "Lucknow",
 				"class": "glyphicon-home"
 			},
-			"tempAdd": {
+			{
 				"text": "Lives in",
 				"val": "Pune",
 				"class": "glyphicon-home"
 			},
-			"work": {
+			{
 				"text": "I am working as",
 				"val": "software developer",
 				"company": "Blazeclan Technologies",
 				"class": "glyphicon-briefcase"
 			},
-			"aspiration": {
+			{
 				"text": "I always wanted to be a",
 				"val": "scientist",
 				"class": "glyphicon-send"
 			},
-			"interests": {
+			{
 				"text": "I love",
 				"val": "",
 				"class": "glyphicon-heart",
@@ -32,6 +31,6 @@
 					"2": "indian politics"
 				}
 			}
-		}
+		]
 	}
 }
