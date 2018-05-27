@@ -1,0 +1,16 @@
+{
+	"formProperties": {
+		"addressDetails": "kjjkh adfa asdasdf afadf adfasdf adfasdf asdfasdf",
+		"city": "mumbai",
+		"dateOfBirth": "01-05-1995",
+		"fullName": "Prakhar",
+		"gender": "Male",
+		"permanentAddressDetails": "kjjkh adfa asdasdf afadf adfasdf adfasdf asdfasdf",
+		"permanentCity": "mumbai",
+		"permanentPincode": "400001",
+		"personalPan": "bmapp9870A",
+		"pincode": "400001"
+	},
+	"processInstanceId": "17410889",
+	"taskId": "17411026"
+}
