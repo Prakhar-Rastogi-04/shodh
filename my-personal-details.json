@@ -1,16 +1,37 @@
 {
-	"formProperties": {
-		"addressDetails": "kjjkh adfa asdasdf afadf adfasdf adfasdf asdfasdf",
-		"city": "mumbai",
-		"dateOfBirth": "01-05-1995",
-		"fullName": "Prakhar",
-		"gender": "Male",
-		"permanentAddressDetails": "kjjkh adfa asdasdf adfasdf adfasdf asdfasdf",
-		"permanentCity": "mumbai",
-		"permanentPincode": "400001",
-		"personalPan": "bmapp9870A",
-		"pincode": "400001"
-	},
-	"processInstanceId": "17410889",
-	"taskId": "17411026"
+	"profIntro": {
+		"permanentAdd": {
+			"permanentAdd": {
+				"text": "Belongs to",
+				"val": "Lucknow",
+				"class": "glyphicon-home"
+			},
+			"tempAdd": {
+				"text": "Lives in",
+				"val": "Pune",
+				"class": "glyphicon-home"
+			},
+			"work": {
+				"text": "I am working as",
+				"val": "software developer",
+				"company": "Blazeclan Technologies",
+				"class": "glyphicon-briefcase"
+			},
+			"aspiration": {
+				"text": "I always wanted to be a",
+				"val": "scientist",
+				"class": "glyphicon-send"
+			},
+			"interests": {
+				"text": "I love",
+				"val": "",
+				"class": "glyphicon-heart",
+				"list": {
+					"0": "singing",
+					"1": "playing chess",
+					"2": "indian politics"
+				}
+			}
+		}
+	}
 }
