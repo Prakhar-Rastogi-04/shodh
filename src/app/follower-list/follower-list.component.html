@@ -1,0 +1,66 @@
+<!-- <mat-list>
+  <h3 mat-subheader>
+    <div class="pull-left width75per">Supporters</div>
+    <div class="pll-right">
+      <img class="profileDP"  src="../assets/supporter3.png" >
+    </div>
+  </h3>
+  <mat-list-item *ngFor="let folder of folders">
+    
+    <img class="profileDP" src="../assets/me.png">
+    <h4 mat-line>{{folder.name}}</h4>
+    <p mat-line> {{folder.updated | date}} </p>
+  </mat-list-item>
+  <mat-divider></mat-divider>
+  <h3 mat-subheader>
+    <div class="pull-left width75per">Critics</div>
+    <div class="pll-right">
+      <img class="profileDP"  src="../assets/critics2.png" >
+    </div>
+  </h3>
+  <mat-list-item *ngFor="let note of notes">
+    <img class="profileDP" src="../assets/me.png">
+    <h4 mat-line>{{note.name}}</h4>
+    <p mat-line> {{note.updated | date}} </p>
+  </mat-list-item>
+</mat-list> -->
+<mat-accordion>
+    <mat-expansion-panel [expanded]="true">
+      <mat-expansion-panel-header matTooltip="Click to see your supporters" [matTooltipPosition]="position">
+        <mat-panel-title>
+          Your Supporters
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-list>
+          <mat-form-field>
+              <input matInput placeholder="search supporter">
+            </mat-form-field>
+          <mat-list-item *ngFor="let folder of folders">
+              <img class="profileDP" src="../assets/me.png">
+              <h4 mat-line>{{folder.name}}</h4>
+              <p mat-line> {{folder.updated | date}} </p>
+          </mat-list-item>
+      </mat-list>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header matTooltip="Click to see your critics" [matTooltipPosition]="position">
+        <mat-panel-title>
+         Your Critics
+        </mat-panel-title>
+        
+      </mat-expansion-panel-header>
+      <mat-list>
+          <mat-list-item *ngFor="let folder of folders">
+              <img class="profileDP" src="../assets/me.png">
+              <h4 mat-line>{{folder.name}}</h4>
+              <p mat-line> {{folder.updated | date}} </p>
+          </mat-list-item>
+      </mat-list>
+    </mat-expansion-panel>
+  </mat-accordion>
+  
+  
+  <!-- Copyright 2018 Google Inc. All Rights Reserved.
+      Use of this source code is governed by an MIT-style license that
+      can be found in the LICENSE file at http://angular.io/license -->

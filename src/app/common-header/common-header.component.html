@@ -1,0 +1,60 @@
+ <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li> 
+          <li><a href="#">Page 3</a></li> 
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> </a></li> -->
+          <li class="text-center">
+              <a>
+                <div class="">
+                    <button mat-icon-button [matMenuTriggerFor]="menu">
+                       <img class="profileDP" src="../assets/me.png">
+                      </button>
+                      <mat-menu #menu="matMenu">
+                        <a href="/profileedit"><button mat-menu-item>
+                            <div class="profileOp pull-left"><img class="profileDP" src="../assets/me.png"></div>
+                            <span>Edit Profile</span>
+                        </button></a>
+                        <button mat-menu-item disabled>
+                            <div class="profileOp pull-left"><span class="glyphicon glyphicon-list-alt"></span></div>
+                          <span>My Articles</span>
+                        </button>
+                        <button mat-menu-item>
+                            <div class="profileOp pull-left"><span class="glyphicon glyphicon-book"></span></div>
+                          <span>My Books</span>
+                        </button>
+                        <button mat-menu-item>
+                            <div class="profileOp pull-left"><span class="glyphicon glyphicon-bookmark"></span></div>
+                          <span>Book-marked Items</span>
+                        </button>
+                        
+                      </mat-menu>  
+                </div> 
+                <div>My Account</div>
+              </a>
+          </li>
+          <li class="text-center">
+            <a href="signin" >
+              <div class="glyphicon glyphicon-user"></div> 
+              <div>Login</div>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  

@@ -1,0 +1,10 @@
+.mat-tab-body-content {
+    overflow: hidden !important;
+} 
+mat-tab-group.jumbotron {
+    max-width: 550px;
+    margin: 0 auto;
+}
+mat-form-field {
+    width: 100%;
+}

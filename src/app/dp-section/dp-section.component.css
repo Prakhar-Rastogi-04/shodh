@@ -1,0 +1,67 @@
+.coverImg {
+    height: 365px;
+    width: 100%;
+   
+    /* background-image: url("/assets/coverFire.jpg"); */
+    background: url("/assets/coverFire2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.dp-backgrnd {
+    /* padding: 50px; */
+    /* height: 250px; */
+    /* width: 250px; */
+    padding: 125px 5% 125px 5%;
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    /* border: 5px solid #E65D0E; */
+    /* background: url("/assets/akb.jpg") no-repeat center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.my-dp{    
+    width: 26%;
+    height: 100%;
+}
+.my-dp img{
+    border: 10px solid #FFF;
+    max-height: 150px;
+    line-height: 0;
+    /* height: auto; */
+    /* background: #f85032;
+    background: -moz-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #f85032), color-stop(50%, #f16f5c), color-stop(51%, #f6290c), color-stop(71%, #f02f17), color-stop(100%, #e73827));
+    background: -webkit-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
+    background: -o-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
+    background: -ms-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
+    background: linear-gradient(to bottom, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );
+    /* background: url("/assets/akb.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+.quote {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.my-name {
+    font-size: 30px;
+}
+.life-phylosophy {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    width: 73%;
+    height: 100%;
+    display: table;
+    padding: 0 15px;
+}

@@ -1,0 +1,26 @@
+.navbar-inverse.navbar  {
+    background-image: linear-gradient(130deg,#ff3b30,#ff624d);
+    border-color: #ff3b30;
+    margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    font-weight: bolder;
+    background-color: transparent;
+    /* opacity: 0.5; */
+}
+.glyphicon-user {
+    font-size: 36px;
+}
+.profileOp {
+    width: 45px;
+    height: auto;
+}
+.profileDP {
+    height: 35px;
+    width: 35px;
+    border-radius: 37px;
+}

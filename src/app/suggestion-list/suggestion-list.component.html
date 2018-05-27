@@ -1,0 +1,22 @@
+<div class="suggestionListContainer">
+  <div class="searchPeople">
+      <input type="text" placeholder="Search..">
+      <button type="submit" ><i class="fa fa-search"></i></button>
+  </div>
+  <div class="suggestedPeronality" *ngFor="let person of ['1','2','3','4','5']">
+    <div class="col-md-3 spDp leftPad0">
+      <img src="../assets/me.png" />
+    </div>
+    <div class="col-md-6 leftPad0 rightPad0">
+      <div class="nameOfPerson">
+        <a href="javascript:void(0);">Prakhar Rastogi</a>
+      </div>
+      <div class="noOfFollowers">1.2M followers </div>
+    </div>
+    <div class="col-md-3 leftPad0 followBtn">
+        <!-- <button mat-raised-button> Follow</button> -->
+        <!-- <button mat-mini-fab color="primary">Primary</button> -->
+        <button mat-fab color="primary">Follow</button>
+    </div>
+  </div>
+</div>

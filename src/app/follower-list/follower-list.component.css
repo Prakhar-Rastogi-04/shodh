@@ -1,0 +1,11 @@
+.profileDP {
+    height: 35px;
+    width: 35px;
+    border-radius: 37px;
+}
+.width75per, .mat-list-text {
+    width: 75%;
+}
+.mat-list-item {
+    font-size: 12px;
+}
